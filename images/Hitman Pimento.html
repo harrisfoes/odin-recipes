@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/recipes/hitmanpimento.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitman Pimento</title>
+    
+<link rel="stylesheet" href="./Hitman Pimento_files/styles.css"></head>
+<body class="recipe">
+    <h1>Hitman Pimento</h1>
+    <img src="./Hitman Pimento_files/pimento_img.png" alt="pimento sandwich" style="max-width:400px;">
+    <h2>Description: </h2>
+    <p>This pimento cheese sandwich is the favorite amongst skilled freelancers who do all kinds of cleaning jobs--from search histories, to crime scenes!</p>
+    <p>This sandwich also happens to be the favorite amongst hitmen and bodyguards, but don't tell them I told you that!</p>
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>A piece of white bread</li>
+        <li>Pimento cheese spread</li>
+        <li>Annother piece of white bread</li>
+    </ul>
+    <h2>Steps: </h2>
+    <ol>
+        <li>Take two sliced pieces of white bread</li>
+        <li>Spread the correct amount of cheese into one of them</li>
+        <li>Close it with the other one</li>
+    </ol>
+    <p>That's it! Pretty simple right?</p>
+
+    <a href="http://127.0.0.1:5500/index.html">back to recipe list</a>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

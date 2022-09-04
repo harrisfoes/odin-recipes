@@ -1,0 +1,40 @@
+/*
+BCS color pallette
+yellow: #FFE882
+red: #FF473D
+gray blue: #535E66
+concrete: #8A8080
+*/
+
+body {
+    background-color: #535E66;
+}
+
+h1, p{
+    text-align:center;
+}
+
+h1{
+    color:#FF473D;
+}
+
+p{
+    font-size:28px;
+    color:#FFE882;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+
+.recipe p {
+    font-size:16px;
+    text-align:left;
+}
+
+.recipe li {
+    color:#FFE882;
+}
+
+.recipe h1, h2 {
+    color:#8A8080;
+}

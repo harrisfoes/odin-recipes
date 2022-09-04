@@ -1,0 +1,71 @@
+/*
+BCS color pallette
+yellow: #FFE882
+red: #FF473D
+gray blue: #535E66
+concrete: #8A8080
+*/
+
+body {
+    background-color: #535E66;
+}
+
+h1, p{
+    text-align:center;
+}
+
+h1{
+    color:#FFE882;
+}
+
+p{
+    font-size:28px;
+    color:#FFE882;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+img {
+    margin-left:36%;
+}
+
+ul.recipelist {
+    text-align:center;
+    list-style-type: none;
+}
+
+a:-webkit-any-link {
+    color: #FF473D;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.recipe p {
+    font-size:16px;
+    text-align:left;
+}
+
+.recipe ul{
+    text-align:left;
+}
+
+.recipe li {
+    color:#FFE882;
+}
+
+.recipe h1, h2, h3 {
+    color:#FFE882;
+}
+
+#mike{
+    margin-left:37%;
+}
+
+#gus{
+    margin-left:34%;
+}
+
+#gene{
+    margin-left:34%;
+}
